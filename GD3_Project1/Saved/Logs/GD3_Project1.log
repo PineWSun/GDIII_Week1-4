@@ -1742,3 +1742,752 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.29-17.36.02:182][672]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 649 ms)
 [2023.08.29-17.36.02:188][672]AssetCheck: New page: Asset Save: BP_Char2_JK_C_UAID_088FC32E6AF518A401_2048710568
 [2023.08.29-17.36.02:188][672]LogContentValidation: Display: Validating /Game/Developers/kraft/Blueprints/BP_Char2_JK.BP_Char2_JK_C /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK:PersistentLevel.BP_Char2_JK_C_UAID_088FC32E6AF518A401_2048710568
+[2023.08.29-17.38.21:621][152]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.08.29-17.38.21:621][152]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.08.29-17.38.43:307][535]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.08.29-17.41.31:323][ 75]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.08.29-17.45.18:797][553]BlueprintLog: New page: Compile BP_Char1_JK
+[2023.08.29-17.45.18:807][553]LogBlueprint: Error: [AssetLog] C:\Users\kraft\GitHub\GDIII_Week1-4\GD3_Project1\Content\Developers\kraft\Blueprints\BP_Char1_JK.uasset: [Compiler] This blueprint (self) is not a GameModeBase, therefore ' Target ' must have a connection.
+[2023.08.29-17.45.18:807][553]LogBlueprint: Error: [AssetLog] C:\Users\kraft\GitHub\GDIII_Week1-4\GD3_Project1\Content\Developers\kraft\Blueprints\BP_Char1_JK.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_ThirdPersonGameMode  to imply a specific type.
+[2023.08.29-17.45.18:807][553]LogBlueprint: Error: [AssetLog] C:\Users\kraft\GitHub\GDIII_Week1-4\GD3_Project1\Content\Developers\kraft\Blueprints\BP_Char1_JK.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2023.08.29-17.45.18:807][553]LogBlueprint: Error: [AssetLog] C:\Users\kraft\GitHub\GDIII_Week1-4\GD3_Project1\Content\Developers\kraft\Blueprints\BP_Char1_JK.uasset: [Compiler] Variable node  Set DefaultPawnClass  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2023.08.29-17.45.18:863][553]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.08.29-17.45.39:601][862]BlueprintLog: New page: Compile BP_Char1_JK
+[2023.08.29-17.45.39:607][862]LogBlueprint: Warning: [AssetLog] C:\Users\kraft\GitHub\GDIII_Week1-4\GD3_Project1\Content\Developers\kraft\Blueprints\BP_Char1_JK.uasset: [Compiler] 'BP Third Person Game Mode' does not inherit from 'BP Char 1 JK' ( Cast To BP_ThirdPersonGameMode  would always fail).
+[2023.08.29-17.45.39:608][862]LogBlueprint: Error: [AssetLog] C:\Users\kraft\GitHub\GDIII_Week1-4\GD3_Project1\Content\Developers\kraft\Blueprints\BP_Char1_JK.uasset: [Compiler] This blueprint (self) is not a GameModeBase, therefore ' Target ' must have a connection.
+[2023.08.29-17.45.39:608][862]LogBlueprint: Error: [AssetLog] C:\Users\kraft\GitHub\GDIII_Week1-4\GD3_Project1\Content\Developers\kraft\Blueprints\BP_Char1_JK.uasset: [Compiler] Variable node  Set DefaultPawnClass  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2023.08.29-17.45.39:660][862]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.08.29-17.46.18:120][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.08.29-17.46.18:124][415]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Developers/kraft/Maps/TestMap_JK' took 0.026
+[2023.08.29-17.46.18:125][415]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Developers/kraft/Blueprints/BP_Char1_JK] ([2] browsable assets)...
+[2023.08.29-17.46.18:168][415]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK]
+[2023.08.29-17.46.18:168][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/Developers/kraft/Blueprints/BP_Char1_JK]
+[2023.08.29-17.46.18:178][415]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Developers/kraft/Blueprints/BP_Char1_JK_Auto1
+[2023.08.29-17.46.18:179][415]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_Char1_JK_Auto1C143AD7B4A4225DC314E7E8082FC6893.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/Autosaves/Game/Developers/kraft/Blueprints/BP_Char1_JK_Auto1.uasset'
+[2023.08.29-17.46.18:180][415]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Developers/kraft/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER_Auto1
+[2023.08.29-17.46.18:180][415]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/A7GPT109Y6ZTTJD4A7TXER_Auto1BA24D0F542277878326F619A73B5D287.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/Autosaves/Game/__ExternalActors__/Developers/kraft/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER_Auto1.uasset'
+[2023.08.29-17.46.18:181][415]LogFileHelpers: Auto-saving content packages took 0.057
+[2023.08.29-17.47.11:742][833]BlueprintLog: New page: Compile BP_Char1_JK
+[2023.08.29-17.47.11:747][833]LogBlueprint: Warning: [AssetLog] C:\Users\kraft\GitHub\GDIII_Week1-4\GD3_Project1\Content\Developers\kraft\Blueprints\BP_Char1_JK.uasset: [Compiler] 'BP Third Person Game Mode' does not inherit from 'BP Char 1 JK' ( Cast To BP_ThirdPersonGameMode  would always fail).
+[2023.08.29-17.47.11:801][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.08.29-17.47.46:166][850]BlueprintLog: New page: Compile BP_Char1_JK
+[2023.08.29-17.47.46:170][850]LogBlueprint: Warning: [AssetLog] C:\Users\kraft\GitHub\GDIII_Week1-4\GD3_Project1\Content\Developers\kraft\Blueprints\BP_Char1_JK.uasset: [Compiler] 'BP Third Person Game Mode' does not inherit from 'BP Char 1 JK' ( Cast To BP_ThirdPersonGameMode  would always fail).
+[2023.08.29-17.47.46:227][850]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.08.29-17.47.52:688][599]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.29-17.47.52:694][599]LogContentBundle: [TestMap_JK(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.08.29-17.47.52:695][599]LogWorldPartition: Display: GenerateStreaming started...
+[2023.08.29-17.47.52:695][599]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.08.29-17.47.52:695][599]LogWorldPartition: Display: GetPartitionedActors took 8 us (total: 357 us)
+[2023.08.29-17.47.52:695][599]LogWorldPartition: Display: GenerateStreaming took 163 us (total: 978 us)
+[2023.08.29-17.47.52:696][599]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.29-17.47.52:696][599]PIE: New page: PIE session: TestMap_JK (Aug 29, 2023, 7:47:52 AM)
+[2023.08.29-17.47.52:696][599]LogPlayLevel: Creating play world package: /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK
+[2023.08.29-17.47.52:701][599]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004454s)
+[2023.08.29-17.47.52:701][599]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK to /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK (0.004490s)
+[2023.08.29-17.47.52:701][599]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.29-17.47.52:701][599]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.29-17.47.52:702][599]LogAIModule: Creating AISystem for world TestMap_JK
+[2023.08.29-17.47.52:702][599]LogWorldPartition: ULevel::OnLevelLoaded(TestMap_JK)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.08.29-17.47.52:702][599]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.08.29-17.47.52:702][599]LogWorldPartition: UWorldPartition::Initialize(Asset=TestMap_JK, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.08.29-17.47.52:703][599]LogContentBundle: [TestMap_JK(Standalone)] Creating new contrainer.
+[2023.08.29-17.47.52:703][599]LogWorldPartition: Display: WorldPartition initialize took 930 us (total: 585 ms)
+[2023.08.29-17.47.52:703][599]LogPlayLevel: PIE: World Init took: (0.001990s)
+[2023.08.29-17.47.52:725][599]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.08.29-17.47.52:728][599]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.08.29-17.47.52:728][599]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.29-17.47.52:728][599]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.29-17.47.52:728][599]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.29-17.47.52:728][599]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.29-17.47.52:728][599]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.29-17.47.52:728][599]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.29-17.47.52:728][599]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.29-17.47.52:728][599]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.29-17.47.52:729][599]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.29-17.47.52:729][599]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.29-17.47.52:729][599]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.29-17.47.52:730][599]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.29-17.47.52:810][599]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.08.29-17.47.52:810][599]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.29-17.47.52:810][599]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.29-17.47.52:810][599]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.29-17.47.52:811][599]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.08.29-17.47.52:811][599]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.08.29-17.47.52:812][599]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.08.29-17.47.52:812][599]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.08.29-17.47.52:812][599]LogInit: FAudioDevice initialized with ID 4.
+[2023.08.29-17.47.52:812][599]LogAudio: Display: Audio Device (ID: 4) registered with world 'TestMap_JK'.
+[2023.08.29-17.47.52:812][599]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.08.29-17.47.52:816][599]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.08.29-17.47.52:820][599]LogWorld: Bringing World /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK up for play (max tick rate 0) at 2023.08.29-12.47.52
+[2023.08.29-17.47.52:820][599]LogWorld: Bringing up level for play took: 0.003890
+[2023.08.29-17.47.52:822][599]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2023.08.29-17.47.52:825][599]PIE: Server logged in
+[2023.08.29-17.47.52:826][599]PIE: Play in editor total start time 0.132 seconds.
+[2023.08.29-17.47.55:792][742]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Game_Mode
+	BP_Char1_JK_C /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK:PersistentLevel.BP_Char1_JK_C_0
+	Function /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK_C:ExecuteUbergraph_BP_Char1_JK:0137
+[2023.08.29-17.47.55:792][742]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Game_Mode". Node:  Set DefaultPawnClass Graph:  EventGraph Function:  Execute Ubergraph BP Char 1 JK Blueprint:  BP_Char1_JK
+[2023.08.29-17.47.55:792][742]LogScript: Warning: Accessed None attempting to assign variable on an object
+	BP_Char1_JK_C /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK:PersistentLevel.BP_Char1_JK_C_0
+	Function /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK_C:ExecuteUbergraph_BP_Char1_JK:014C
+[2023.08.29-17.47.55:792][742]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Node:  Set DefaultPawnClass Graph:  EventGraph Function:  Execute Ubergraph BP Char 1 JK Blueprint:  BP_Char1_JK
+[2023.08.29-17.47.58:839][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-17.47.58:839][ 60]LogWorld: BeginTearingDown for /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK
+[2023.08.29-17.47.58:839][ 60]LogWorld: UWorld::CleanupWorld for TestMap_JK, bSessionEnded=true, bCleanupResources=true
+[2023.08.29-17.47.58:839][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-17.47.58:839][ 60]LogContentBundle: [TestMap_JK(Standalone)] Deleting container.
+[2023.08.29-17.47.58:842][ 60]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.29-17.47.58:846][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-17.47.58:867][ 60]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.29-17.47.58:867][ 60]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.08.29-17.47.58:867][ 60]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.08.29-17.47.58:870][ 60]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.08.29-17.47.58:875][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-17.47.58:878][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.08.29-17.47.58:938][ 61]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.08.29-17.54.27:943][  3]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-17.54.28:055][  3]LogSavePackage: Moving output files for package: /Game/Developers/kraft/Blueprints/BP_Char1_JK
+[2023.08.29-17.54.28:055][  3]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_Char1_JK3E807B4440303349BF3CD78CB94A8F1C.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_Char1_JK.uasset'
+[2023.08.29-17.54.28:062][  3]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 767 ms)
+[2023.08.29-17.54.28:073][  3]AssetCheck: New page: Asset Save: BP_Char1_JK
+[2023.08.29-17.54.28:073][  3]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK
+[2023.08.29-17.55.13:324][744]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-17.55.13:388][744]LogSavePackage: Moving output files for package: /Game/Developers/kraft/Blueprints/BP_Char2_JK
+[2023.08.29-17.55.13:388][744]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_Char2_JK8B2A00A84FA8F6BC785D2AB65A90E664.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_Char2_JK.uasset'
+[2023.08.29-17.55.13:394][744]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 837 ms)
+[2023.08.29-17.55.13:401][744]AssetCheck: New page: Asset Save: BP_Char2_JK
+[2023.08.29-17.55.13:402][744]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Developers/kraft/Blueprints/BP_Char2_JK.BP_Char2_JK
+[2023.08.29-17.55.18:571][270]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.29-17.55.18:577][270]LogContentBundle: [TestMap_JK(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.08.29-17.55.18:578][270]LogWorldPartition: Display: GenerateStreaming started...
+[2023.08.29-17.55.18:578][270]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.08.29-17.55.18:578][270]LogWorldPartition: Display: GetPartitionedActors took 8 us (total: 366 us)
+[2023.08.29-17.55.18:578][270]LogWorldPartition: Display: GenerateStreaming took 155 us (total: 1 ms)
+[2023.08.29-17.55.18:579][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.29-17.55.18:579][270]PIE: New page: PIE session: TestMap_JK (Aug 29, 2023, 7:55:18 AM)
+[2023.08.29-17.55.18:607][270]LogPlayLevel: Creating play world package: /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK
+[2023.08.29-17.55.18:611][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004137s)
+[2023.08.29-17.55.18:611][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK to /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK (0.004176s)
+[2023.08.29-17.55.18:611][270]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.29-17.55.18:611][270]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.29-17.55.18:612][270]LogAIModule: Creating AISystem for world TestMap_JK
+[2023.08.29-17.55.18:612][270]LogWorldPartition: ULevel::OnLevelLoaded(TestMap_JK)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.08.29-17.55.18:612][270]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.08.29-17.55.18:612][270]LogWorldPartition: UWorldPartition::Initialize(Asset=TestMap_JK, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.08.29-17.55.18:613][270]LogContentBundle: [TestMap_JK(Standalone)] Creating new contrainer.
+[2023.08.29-17.55.18:613][270]LogWorldPartition: Display: WorldPartition initialize took 930 us (total: 586 ms)
+[2023.08.29-17.55.18:613][270]LogPlayLevel: PIE: World Init took: (0.002184s)
+[2023.08.29-17.55.18:635][270]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.08.29-17.55.18:641][270]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.08.29-17.55.18:641][270]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.29-17.55.18:641][270]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.29-17.55.18:642][270]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.29-17.55.18:642][270]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.29-17.55.18:642][270]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.29-17.55.18:642][270]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.29-17.55.18:642][270]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.29-17.55.18:642][270]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.29-17.55.18:642][270]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.29-17.55.18:642][270]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.29-17.55.18:642][270]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.29-17.55.18:644][270]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.29-17.55.18:729][270]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.08.29-17.55.18:729][270]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.29-17.55.18:729][270]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.29-17.55.18:729][270]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.29-17.55.18:730][270]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.08.29-17.55.18:730][270]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.08.29-17.55.18:731][270]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.08.29-17.55.18:731][270]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.08.29-17.55.18:731][270]LogInit: FAudioDevice initialized with ID 5.
+[2023.08.29-17.55.18:731][270]LogAudio: Display: Audio Device (ID: 5) registered with world 'TestMap_JK'.
+[2023.08.29-17.55.18:732][270]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.08.29-17.55.18:735][270]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.08.29-17.55.18:738][270]LogWorld: Bringing World /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK up for play (max tick rate 0) at 2023.08.29-12.55.18
+[2023.08.29-17.55.18:739][270]LogWorld: Bringing up level for play took: 0.003969
+[2023.08.29-17.55.18:741][270]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2023.08.29-17.55.18:744][270]PIE: Server logged in
+[2023.08.29-17.55.18:744][270]PIE: Play in editor total start time 0.168 seconds.
+[2023.08.29-17.55.40:877][256]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-17.55.40:877][256]LogWorld: BeginTearingDown for /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK
+[2023.08.29-17.55.40:877][256]LogWorld: UWorld::CleanupWorld for TestMap_JK, bSessionEnded=true, bCleanupResources=true
+[2023.08.29-17.55.40:878][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-17.55.40:878][256]LogContentBundle: [TestMap_JK(Standalone)] Deleting container.
+[2023.08.29-17.55.40:881][256]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.29-17.55.40:885][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-17.55.40:909][256]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.29-17.55.40:910][256]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.08.29-17.55.40:910][256]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.08.29-17.55.40:911][256]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.08.29-17.55.40:917][256]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-17.55.40:919][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.08.29-17.55.40:970][258]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.08.29-17.56.10:210][213]BlueprintLog: New page: Compile BP_Char1_JK
+[2023.08.29-17.56.10:216][213]LogBlueprint: Warning: [AssetLog] C:\Users\kraft\GitHub\GDIII_Week1-4\GD3_Project1\Content\Developers\kraft\Blueprints\BP_Char1_JK.uasset: [Compiler] 'BP Third Person Game Mode' does not inherit from 'BP Char 1 JK' ( Cast To BP_ThirdPersonGameMode  would always fail).
+[2023.08.29-17.56.10:274][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.08.29-17.56.16:561][936]BlueprintLog: New page: Compile BP_Char1_JK
+[2023.08.29-17.56.16:624][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.08.29-17.56.17:272][  6]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-17.56.17:375][  6]LogSavePackage: Moving output files for package: /Game/Developers/kraft/Blueprints/BP_Char1_JK
+[2023.08.29-17.56.17:375][  6]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_Char1_JK4F75D54C4C51D7FD4540D7A36003B6E2.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_Char1_JK.uasset'
+[2023.08.29-17.56.17:381][  6]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 946 ms)
+[2023.08.29-17.56.17:386][  6]AssetCheck: New page: Asset Save: BP_Char1_JK
+[2023.08.29-17.56.17:386][  6]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK
+[2023.08.29-17.56.47:177][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.08.29-17.56.47:187][555]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/4/56/2FH56ES3MQ6OKO3UUF00RO_Auto2
+[2023.08.29-17.56.47:187][555]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/2FH56ES3MQ6OKO3UUF00RO_Auto2530B1B624776E2DF9BC7C98383ECFDCD.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/Autosaves/Game/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/4/56/2FH56ES3MQ6OKO3UUF00RO_Auto2.uasset'
+[2023.08.29-17.56.47:188][555]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Developers/kraft/Maps/TestMap_JK' took 0.039
+[2023.08.29-17.56.47:188][555]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.039
+[2023.08.29-17.56.47:188][555]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Developers/kraft/Blueprints/BP_Char2_JK] ([2] browsable assets)...
+[2023.08.29-17.56.47:234][555]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Developers/kraft/Blueprints/BP_Char2_JK.BP_Char2_JK]
+[2023.08.29-17.56.47:234][555]OBJ SavePackage: Finished generating thumbnails for package [/Game/Developers/kraft/Blueprints/BP_Char2_JK]
+[2023.08.29-17.56.47:245][555]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Developers/kraft/Blueprints/BP_Char2_JK_Auto2
+[2023.08.29-17.56.47:245][555]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_Char2_JK_Auto21FA9448B402D638AF4B9268A6844B021.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/Autosaves/Game/Developers/kraft/Blueprints/BP_Char2_JK_Auto2.uasset'
+[2023.08.29-17.56.47:245][555]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Developers/kraft/Blueprints/BP_Char1_JK] ([2] browsable assets)...
+[2023.08.29-17.56.47:260][555]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK]
+[2023.08.29-17.56.47:260][555]OBJ SavePackage: Finished generating thumbnails for package [/Game/Developers/kraft/Blueprints/BP_Char1_JK]
+[2023.08.29-17.56.47:271][555]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Developers/kraft/Blueprints/BP_Char1_JK_Auto2
+[2023.08.29-17.56.47:271][555]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_Char1_JK_Auto225ED61E849ECDE25900E3A897CAC8543.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/Autosaves/Game/Developers/kraft/Blueprints/BP_Char1_JK_Auto2.uasset'
+[2023.08.29-17.56.47:272][555]LogFileHelpers: Auto-saving content packages took 0.084
+[2023.08.29-17.56.54:951][821]BlueprintLog: New page: Compile BP_Char1_JK
+[2023.08.29-17.56.55:033][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.08.29-17.56.55:464][864]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-17.56.55:560][864]LogSavePackage: Moving output files for package: /Game/Developers/kraft/Blueprints/BP_Char1_JK
+[2023.08.29-17.56.55:560][864]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_Char1_JK4E09D2644ECBF9335023B78F5B4B539F.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_Char1_JK.uasset'
+[2023.08.29-17.56.55:568][864]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 1.05 sec)
+[2023.08.29-17.56.55:574][864]AssetCheck: New page: Asset Save: BP_Char1_JK
+[2023.08.29-17.56.55:574][864]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK
+[2023.08.29-17.59.01:690][394]BlueprintLog: New page: Compile BP_Char1_JK
+[2023.08.29-17.59.01:754][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.08.29-17.59.03:895][644]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-17.59.03:993][644]LogSavePackage: Moving output files for package: /Game/Developers/kraft/Blueprints/BP_Char1_JK
+[2023.08.29-17.59.03:993][644]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_Char1_JK7DD40F5441AEDEE05184F5A223CF4891.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_Char1_JK.uasset'
+[2023.08.29-17.59.04:001][644]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 1.15 sec)
+[2023.08.29-17.59.04:010][644]AssetCheck: New page: Asset Save: BP_Char1_JK
+[2023.08.29-17.59.04:010][644]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK
+[2023.08.29-17.59.05:582][832]BlueprintLog: New page: Compile BP_Char2_JK
+[2023.08.29-17.59.05:653][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.08.29-17.59.06:085][875]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-17.59.06:181][875]LogSavePackage: Moving output files for package: /Game/Developers/kraft/Blueprints/BP_Char2_JK
+[2023.08.29-17.59.06:181][875]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_Char2_JKD1170D8D4D9667E67DAEE2B21A30DCA3.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_Char2_JK.uasset'
+[2023.08.29-17.59.06:189][875]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 1.26 sec)
+[2023.08.29-17.59.06:194][875]AssetCheck: New page: Asset Save: BP_Char2_JK
+[2023.08.29-17.59.06:194][875]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Developers/kraft/Blueprints/BP_Char2_JK.BP_Char2_JK
+[2023.08.29-17.59.15:971][952]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-17.59.16:047][952]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode
+[2023.08.29-17.59.16:047][952]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_ThirdPersonGameMode5A40B1B44D4388407E833ABD02908A69.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset'
+[2023.08.29-17.59.16:052][952]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 1.34 sec)
+[2023.08.29-17.59.16:059][952]AssetCheck: New page: Asset Save: BP_ThirdPersonGameMode
+[2023.08.29-17.59.16:059][952]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode
+[2023.08.29-17.59.16:448][999]BlueprintLog: New page: Compile BP_ThirdPersonGameMode
+[2023.08.29-17.59.16:488][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.08.29-17.59.16:985][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-17.59.17:041][ 52]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode
+[2023.08.29-17.59.17:042][ 52]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_ThirdPersonGameMode61122AFC49B7D27D17CCAEA86626772A.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset'
+[2023.08.29-17.59.17:046][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 1.40 sec)
+[2023.08.29-17.59.17:053][ 52]AssetCheck: New page: Asset Save: BP_ThirdPersonGameMode
+[2023.08.29-17.59.17:053][ 52]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode
+[2023.08.29-18.00.17:180][384]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.29-18.00.17:229][385]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.29-18.00.21:196][770]LogViewport: Scene viewport resized to 453x335, mode Windowed.
+[2023.08.29-18.00.38:548][848]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK_C
+[2023.08.29-18.00.38:548][848]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK_C
+[2023.08.29-18.00.38:554][848]LogActorFactory: Actor Factory spawned Blueprint /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK as actor: BP_Char1_JK_C /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK:PersistentLevel.BP_Char1_JK_C_1
+[2023.08.29-18.00.38:556][848]LogActorFactory: Actor Factory spawned Blueprint /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK as actor: BP_Char1_JK_C /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK:PersistentLevel.BP_Char1_JK_C_1
+[2023.08.29-18.00.39:348][892]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK_C
+[2023.08.29-18.00.39:348][892]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK_C
+[2023.08.29-18.00.39:356][892]LogActorFactory: Actor Factory spawned Blueprint /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK as actor: BP_Char1_JK_C /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK:PersistentLevel.BP_Char1_JK_C_UAID_088FC32E6AF51AA401_1674885921
+[2023.08.29-18.00.39:359][892]LogActorFactory: Actor Factory spawned Blueprint /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK as actor: BP_Char1_JK_C /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK:PersistentLevel.BP_Char1_JK_C_UAID_088FC32E6AF51AA401_1674885921
+[2023.08.29-18.00.39:455][893]LogViewport: Scene viewport resized to 453x335, mode Windowed.
+[2023.08.29-18.00.48:243][432]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.29-18.00.48:248][432]LogContentBundle: [TestMap_JK(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.08.29-18.00.48:250][432]LogWorldPartition: Display: GenerateStreaming started...
+[2023.08.29-18.00.48:250][432]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.08.29-18.00.48:250][432]LogWorldPartition: Display: GetPartitionedActors took 9 us (total: 375 us)
+[2023.08.29-18.00.48:250][432]LogWorldPartition: Display: GenerateStreaming took 152 us (total: 1 ms)
+[2023.08.29-18.00.48:253][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.29-18.00.48:253][432]PIE: New page: PIE session: TestMap_JK (Aug 29, 2023, 8:00:48 AM)
+[2023.08.29-18.00.48:296][432]LogPlayLevel: Creating play world package: /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK
+[2023.08.29-18.00.48:300][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004260s)
+[2023.08.29-18.00.48:300][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK to /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK (0.004299s)
+[2023.08.29-18.00.48:300][432]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.29-18.00.48:301][432]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.29-18.00.48:301][432]LogAIModule: Creating AISystem for world TestMap_JK
+[2023.08.29-18.00.48:302][432]LogWorldPartition: ULevel::OnLevelLoaded(TestMap_JK)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.08.29-18.00.48:302][432]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.08.29-18.00.48:302][432]LogWorldPartition: UWorldPartition::Initialize(Asset=TestMap_JK, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.08.29-18.00.48:303][432]LogContentBundle: [TestMap_JK(Standalone)] Creating new contrainer.
+[2023.08.29-18.00.48:303][432]LogWorldPartition: Display: WorldPartition initialize took 996 us (total: 587 ms)
+[2023.08.29-18.00.48:303][432]LogPlayLevel: PIE: World Init took: (0.002223s)
+[2023.08.29-18.00.48:326][432]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.08.29-18.00.48:331][432]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.08.29-18.00.48:331][432]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.29-18.00.48:331][432]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.29-18.00.48:331][432]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.29-18.00.48:331][432]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.29-18.00.48:331][432]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.29-18.00.48:331][432]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.29-18.00.48:331][432]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.29-18.00.48:331][432]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.29-18.00.48:332][432]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.29-18.00.48:332][432]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.29-18.00.48:332][432]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.29-18.00.48:334][432]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.29-18.00.48:418][432]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.08.29-18.00.48:418][432]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.29-18.00.48:418][432]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.29-18.00.48:419][432]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.29-18.00.48:420][432]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.08.29-18.00.48:420][432]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.08.29-18.00.48:421][432]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.08.29-18.00.48:421][432]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.08.29-18.00.48:421][432]LogInit: FAudioDevice initialized with ID 6.
+[2023.08.29-18.00.48:421][432]LogAudio: Display: Audio Device (ID: 6) registered with world 'TestMap_JK'.
+[2023.08.29-18.00.48:421][432]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.08.29-18.00.48:424][432]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.08.29-18.00.48:429][432]LogWorld: Bringing World /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK up for play (max tick rate 0) at 2023.08.29-13.00.48
+[2023.08.29-18.00.48:430][432]LogWorld: Bringing up level for play took: 0.005985
+[2023.08.29-18.00.48:432][432]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2023.08.29-18.00.48:433][432]PIE: Server logged in
+[2023.08.29-18.00.48:434][432]PIE: Play in editor total start time 0.185 seconds.
+[2023.08.29-18.00.50:237][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-18.00.50:237][437]LogWorld: BeginTearingDown for /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK
+[2023.08.29-18.00.50:237][437]LogWorld: UWorld::CleanupWorld for TestMap_JK, bSessionEnded=true, bCleanupResources=true
+[2023.08.29-18.00.50:237][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-18.00.50:237][437]LogContentBundle: [TestMap_JK(Standalone)] Deleting container.
+[2023.08.29-18.00.50:242][437]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.29-18.00.50:247][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-18.00.50:270][437]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.29-18.00.50:271][437]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.08.29-18.00.50:271][437]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.08.29-18.00.50:273][437]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.08.29-18.00.50:279][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-18.00.50:281][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.08.29-18.00.50:333][438]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.08.29-18.00.50:338][438]LogViewport: Scene viewport resized to 453x335, mode Windowed.
+[2023.08.29-18.01.21:565][110]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.29-18.01.21:570][110]LogContentBundle: [TestMap_JK(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.08.29-18.01.21:572][110]LogWorldPartition: Display: GenerateStreaming started...
+[2023.08.29-18.01.21:572][110]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.08.29-18.01.21:572][110]LogWorldPartition: Display: GetPartitionedActors took 5 us (total: 381 us)
+[2023.08.29-18.01.21:572][110]LogWorldPartition: Display: GenerateStreaming took 137 us (total: 1 ms)
+[2023.08.29-18.01.21:572][110]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.29-18.01.21:572][110]PIE: New page: PIE session: TestMap_JK (Aug 29, 2023, 8:01:21 AM)
+[2023.08.29-18.01.21:572][110]LogPlayLevel: Creating play world package: /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK
+[2023.08.29-18.01.21:577][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004533s)
+[2023.08.29-18.01.21:577][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK to /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK (0.004561s)
+[2023.08.29-18.01.21:577][110]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.29-18.01.21:577][110]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.29-18.01.21:578][110]LogAIModule: Creating AISystem for world TestMap_JK
+[2023.08.29-18.01.21:578][110]LogWorldPartition: ULevel::OnLevelLoaded(TestMap_JK)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.08.29-18.01.21:578][110]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.08.29-18.01.21:578][110]LogWorldPartition: UWorldPartition::Initialize(Asset=TestMap_JK, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.08.29-18.01.21:579][110]LogContentBundle: [TestMap_JK(Standalone)] Creating new contrainer.
+[2023.08.29-18.01.21:579][110]LogWorldPartition: Display: WorldPartition initialize took 955 us (total: 588 ms)
+[2023.08.29-18.01.21:579][110]LogPlayLevel: PIE: World Init took: (0.001947s)
+[2023.08.29-18.01.21:602][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.08.29-18.01.21:604][110]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.08.29-18.01.21:604][110]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.29-18.01.21:604][110]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.29-18.01.21:604][110]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.29-18.01.21:604][110]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.29-18.01.21:604][110]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.29-18.01.21:604][110]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.29-18.01.21:604][110]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.29-18.01.21:604][110]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.29-18.01.21:604][110]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.29-18.01.21:604][110]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.29-18.01.21:604][110]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.29-18.01.21:606][110]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.29-18.01.21:691][110]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.08.29-18.01.21:691][110]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.29-18.01.21:691][110]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.29-18.01.21:691][110]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.29-18.01.21:691][110]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.08.29-18.01.21:691][110]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.08.29-18.01.21:693][110]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.08.29-18.01.21:693][110]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.08.29-18.01.21:693][110]LogInit: FAudioDevice initialized with ID 7.
+[2023.08.29-18.01.21:693][110]LogAudio: Display: Audio Device (ID: 7) registered with world 'TestMap_JK'.
+[2023.08.29-18.01.21:693][110]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2023.08.29-18.01.21:696][110]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.08.29-18.01.21:701][110]LogWorld: Bringing World /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK up for play (max tick rate 0) at 2023.08.29-13.01.21
+[2023.08.29-18.01.21:702][110]LogWorld: Bringing up level for play took: 0.005790
+[2023.08.29-18.01.21:703][110]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.08.29-18.01.21:704][110]PIE: Server logged in
+[2023.08.29-18.01.21:705][110]PIE: Play in editor total start time 0.134 seconds.
+[2023.08.29-18.01.28:606][616]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-18.01.28:606][616]LogWorld: BeginTearingDown for /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK
+[2023.08.29-18.01.28:606][616]LogWorld: UWorld::CleanupWorld for TestMap_JK, bSessionEnded=true, bCleanupResources=true
+[2023.08.29-18.01.28:607][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-18.01.28:607][616]LogContentBundle: [TestMap_JK(Standalone)] Deleting container.
+[2023.08.29-18.01.28:612][616]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.29-18.01.28:617][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-18.01.28:641][616]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-18.01.28:641][616]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2023.08.29-18.01.28:641][616]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.08.29-18.01.28:643][616]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.08.29-18.01.28:652][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.08.29-18.01.28:731][617]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.08.29-18.01.28:739][617]LogViewport: Scene viewport resized to 453x335, mode Windowed.
+[2023.08.29-18.02.03:227][ 18]LogViewport: Scene viewport resized to 453x335, mode Windowed.
+[2023.08.29-18.02.04:077][ 70]Cmd: DELETE
+[2023.08.29-18.02.04:077][ 70]Cmd: ACTOR DELETE
+[2023.08.29-18.02.04:082][ 70]LogEditorActor: Deleted Actor: BP_Char2_JK_C
+[2023.08.29-18.02.04:122][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.08.29-18.02.04:124][ 70]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2023.08.29-18.02.07:286][379]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.08.29-18.02.07:286][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-18.02.07:323][379]LogViewport: Scene viewport resized to 1149x874, mode Windowed.
+[2023.08.29-18.02.07:347][380]LogViewport: Scene viewport resized to 1149x861, mode Windowed.
+[2023.08.29-18.02.07:371][381]LogViewport: Scene viewport resized to 1149x849, mode Windowed.
+[2023.08.29-18.02.07:402][382]LogViewport: Scene viewport resized to 1149x848, mode Windowed.
+[2023.08.29-18.02.10:599][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.08.29-18.02.17:896][674]LogSlate: Window 'Delete Assets' being destroyed
+[2023.08.29-18.02.18:050][674]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.08.29-18.02.18:050][674]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.08.29-18.02.18:050][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-18.02.18:071][674]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Developers/kraft/Blueprints/BP_Char2_JK.BP_Char2_JK
+	Asset Type: Blueprint
+[2023.08.29-18.02.18:328][674]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2023.08.29-18.02.18:383][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.08.29-18.02.18:404][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.08.29-18.02.18:424][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.08.29-18.02.21:111][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.08.29-18.02.21:115][919]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-18.02.21:197][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.08.29-18.02.21:219][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.08.29-18.02.21:241][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.08.29-18.02.21:243][919]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/4/56/2FH56ES3MQ6OKO3UUF00RO
+/Game/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/2/BX/T3WX3OZ55NV5YUS1FRJVM1
+[2023.08.29-18.02.21:243][919]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-18.02.21:264][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.08.29-18.02.21:285][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.08.29-18.02.21:306][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.08.29-18.02.21:309][919]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/2/BX/T3WX3OZ55NV5YUS1FRJVM1
+[2023.08.29-18.02.21:309][919]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/T3WX3OZ55NV5YUS1FRJVM17521FF8E4C570FB4718CB5BF94840581.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/2/BX/T3WX3OZ55NV5YUS1FRJVM1.uasset'
+[2023.08.29-18.02.21:311][919]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 1.47 sec)
+[2023.08.29-18.02.21:311][919]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/2/BX/T3WX3OZ55NV5YUS1FRJVM1
+[2023.08.29-18.02.21:330][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.08.29-18.02.21:334][919]LogSavePackage: Moving output files for package: /Game/Developers/kraft/Maps/TestMap_JK
+[2023.08.29-18.02.21:334][919]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/TestMap_JK785EBB24400AC3BAF43576B4B74E1111.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Maps/TestMap_JK.umap'
+[2023.08.29-18.02.21:343][919]LogFileHelpers: Saving map 'TestMap_JK' took 0.099
+[2023.08.29-18.02.21:344][919]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/2/BX/T3WX3OZ55NV5YUS1FRJVM1
+[2023.08.29-18.02.21:345][919]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/T3WX3OZ55NV5YUS1FRJVM1414478824CBF759624CA31B2DEA93185.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/2/BX/T3WX3OZ55NV5YUS1FRJVM1.uasset'
+[2023.08.29-18.02.21:384][919]LogSavePackage: Moving output files for package: /Game/Developers/kraft/Blueprints/BP_Char1_JK
+[2023.08.29-18.02.21:384][919]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_Char1_JK95D7021C4ADC434323F9CEADF6A5F2C9.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_Char1_JK.uasset'
+[2023.08.29-18.02.21:390][919]LogFileHelpers: InternalPromptForCheckoutAndSave took 275 ms (total: 1.74 sec)
+[2023.08.29-18.02.21:398][919]AssetCheck: New page: Asset Save: multiple assets
+[2023.08.29-18.02.21:398][919]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK
+[2023.08.29-18.02.21:398][919]LogContentValidation: Display: Validating /Script/Engine.World /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK
+[2023.08.29-18.02.21:398][919]LogContentValidation: Display: Validating /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK_C /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK:PersistentLevel.BP_Char1_JK_C_UAID_088FC32E6AF51AA401_1674885921
+[2023.08.29-18.02.22:230][  6]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.29-18.02.22:237][  6]LogContentBundle: [TestMap_JK(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.08.29-18.02.22:238][  6]LogWorldPartition: Display: GenerateStreaming started...
+[2023.08.29-18.02.22:238][  6]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.08.29-18.02.22:238][  6]LogWorldPartition: Display: GetPartitionedActors took 6 us (total: 387 us)
+[2023.08.29-18.02.22:239][  6]LogWorldPartition: Display: GenerateStreaming took 148 us (total: 1 ms)
+[2023.08.29-18.02.22:239][  6]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.08.29-18.02.22:240][  6]LogPlayLevel: [PlayLevel] Compiling BP_Char1_JK before play...
+[2023.08.29-18.02.22:299][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.08.29-18.02.22:301][  6]LogPlayLevel: PlayLevel: Blueprint regeneration took 61 ms (1 blueprints)
+[2023.08.29-18.02.22:301][  6]PIE: New page: PIE session: TestMap_JK (Aug 29, 2023, 8:02:22 AM)
+[2023.08.29-18.02.22:326][  6]LogPlayLevel: Creating play world package: /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK
+[2023.08.29-18.02.22:329][  6]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003628s)
+[2023.08.29-18.02.22:329][  6]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK to /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK (0.003657s)
+[2023.08.29-18.02.22:329][  6]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.29-18.02.22:330][  6]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.29-18.02.22:330][  6]LogAIModule: Creating AISystem for world TestMap_JK
+[2023.08.29-18.02.22:330][  6]LogWorldPartition: ULevel::OnLevelLoaded(TestMap_JK)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.08.29-18.02.22:330][  6]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.08.29-18.02.22:330][  6]LogWorldPartition: UWorldPartition::Initialize(Asset=TestMap_JK, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.08.29-18.02.22:331][  6]LogContentBundle: [TestMap_JK(Standalone)] Creating new contrainer.
+[2023.08.29-18.02.22:331][  6]LogWorldPartition: Display: WorldPartition initialize took 871 us (total: 588 ms)
+[2023.08.29-18.02.22:331][  6]LogPlayLevel: PIE: World Init took: (0.001859s)
+[2023.08.29-18.02.22:351][  6]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.08.29-18.02.22:351][  6]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.08.29-18.02.22:352][  6]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.29-18.02.22:352][  6]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.29-18.02.22:352][  6]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.29-18.02.22:352][  6]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.29-18.02.22:352][  6]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.29-18.02.22:352][  6]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.29-18.02.22:352][  6]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.29-18.02.22:352][  6]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.29-18.02.22:352][  6]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.29-18.02.22:352][  6]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.29-18.02.22:352][  6]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.29-18.02.22:355][  6]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.29-18.02.22:441][  6]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.08.29-18.02.22:441][  6]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.29-18.02.22:441][  6]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.29-18.02.22:441][  6]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.29-18.02.22:441][  6]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.08.29-18.02.22:442][  6]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.08.29-18.02.22:443][  6]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.08.29-18.02.22:443][  6]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.08.29-18.02.22:443][  6]LogInit: FAudioDevice initialized with ID 8.
+[2023.08.29-18.02.22:443][  6]LogAudio: Display: Audio Device (ID: 8) registered with world 'TestMap_JK'.
+[2023.08.29-18.02.22:443][  6]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2023.08.29-18.02.22:446][  6]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.08.29-18.02.22:450][  6]LogWorld: Bringing World /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK up for play (max tick rate 0) at 2023.08.29-13.02.22
+[2023.08.29-18.02.22:450][  6]LogWorld: Bringing up level for play took: 0.003787
+[2023.08.29-18.02.22:452][  6]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2023.08.29-18.02.22:453][  6]PIE: Server logged in
+[2023.08.29-18.02.22:454][  6]PIE: Play in editor total start time 0.216 seconds.
+[2023.08.29-18.02.24:936][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-18.02.24:936][198]LogWorld: BeginTearingDown for /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK
+[2023.08.29-18.02.24:936][198]LogWorld: UWorld::CleanupWorld for TestMap_JK, bSessionEnded=true, bCleanupResources=true
+[2023.08.29-18.02.24:936][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-18.02.24:936][198]LogContentBundle: [TestMap_JK(Standalone)] Deleting container.
+[2023.08.29-18.02.24:940][198]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.29-18.02.24:944][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-18.02.24:968][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-18.02.24:969][198]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2023.08.29-18.02.24:969][198]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.08.29-18.02.24:971][198]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.08.29-18.02.24:980][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.08.29-18.02.25:006][199]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.08.29-18.02.29:575][625]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK
+[2023.08.29-18.02.29:575][625]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.29-18.02.29:575][625]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.29-18.02.33:072][980]LogViewport: Scene viewport resized to 453x335, mode Windowed.
+[2023.08.29-18.02.35:412][127]Warning: Invalid property value in defaults: RigVMModel___PBIK_BoneSettingToSolverBoneIndex(0)=
+[2023.08.29-18.02.35:532][129]LogViewport: Scene viewport resized to 453x335, mode Windowed.
+[2023.08.29-18.03.22:173][292]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-18.03.22:257][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.08.29-18.03.22:284][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.08.29-18.03.22:306][292]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.08.29-18.03.22:310][292]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/2/BX/T3WX3OZ55NV5YUS1FRJVM1
+[2023.08.29-18.03.22:310][292]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/T3WX3OZ55NV5YUS1FRJVM18EBAA443486CF0D0C4A5DC9436206089.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/2/BX/T3WX3OZ55NV5YUS1FRJVM1.uasset'
+[2023.08.29-18.03.22:313][292]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/9/FE/3P9WTAOU1GPOYJ4NV1H1DK
+[2023.08.29-18.03.22:313][292]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/3P9WTAOU1GPOYJ4NV1H1DK170233A145CABEB612EAF0B87DB6FAF1.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/9/FE/3P9WTAOU1GPOYJ4NV1H1DK.uasset'
+[2023.08.29-18.03.22:323][292]LogFileHelpers: InternalPromptForCheckoutAndSave took 149 ms (total: 1.89 sec)
+[2023.08.29-18.03.22:328][292]AssetCheck: New page: Asset Save: multiple assets
+[2023.08.29-18.03.22:328][292]LogContentValidation: Display: Validating /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK_C /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK:PersistentLevel.BP_Char1_JK_C_UAID_088FC32E6AF51AA401_1790925922
+[2023.08.29-18.03.22:328][292]LogContentValidation: Display: Validating /Game/Developers/kraft/Blueprints/BP_Char1_JK.BP_Char1_JK_C /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK:PersistentLevel.BP_Char1_JK_C_UAID_088FC32E6AF51AA401_1674885921
+[2023.08.29-18.03.23:958][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.08.29-18.03.47:505][841]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK:PersistentLevel.TestMap_JK
+[2023.08.29-18.03.47:505][841]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.29-18.03.47:505][841]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.29-18.04.27:981][909]LogViewport: Scene viewport resized to 453x335, mode Windowed.
+[2023.08.29-18.04.48:591][709]LogViewport: Scene viewport resized to 453x335, mode Windowed.
+[2023.08.29-18.08.02:249][861]BlueprintLog: New page: Compile TestMap_JK
+[2023.08.29-18.08.02:298][861]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.08.29-18.08.02:912][932]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-18.08.02:971][932]LogFileHelpers: No new changes to save!
+[2023.08.29-18.08.02:993][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.08.29-18.08.03:000][932]LogSavePackage: Moving output files for package: /Game/Developers/kraft/Maps/TestMap_JK
+[2023.08.29-18.08.03:000][932]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/TestMap_JK92D3C4394EEEB3E37D3445BA2DB4ACAA.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Maps/TestMap_JK.umap'
+[2023.08.29-18.08.03:010][932]LogFileHelpers: Saving map 'TestMap_JK' took 0.039
+[2023.08.29-18.08.03:015][932]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 1.99 sec)
+[2023.08.29-18.08.03:022][932]AssetCheck: New page: Asset Save: TestMap_JK
+[2023.08.29-18.08.03:022][932]LogContentValidation: Display: Validating /Script/Engine.World /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK
+[2023.08.29-18.08.04:825][ 66]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.29-18.08.04:830][ 66]LogContentBundle: [TestMap_JK(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.08.29-18.08.04:831][ 66]LogWorldPartition: Display: GenerateStreaming started...
+[2023.08.29-18.08.04:831][ 66]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.08.29-18.08.04:831][ 66]LogWorldPartition: Display: GetPartitionedActors took 8 us (total: 395 us)
+[2023.08.29-18.08.04:832][ 66]LogWorldPartition: Display: GenerateStreaming took 169 us (total: 1 ms)
+[2023.08.29-18.08.04:832][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.29-18.08.04:832][ 66]PIE: New page: PIE session: TestMap_JK (Aug 29, 2023, 8:08:04 AM)
+[2023.08.29-18.08.04:832][ 66]LogPlayLevel: Creating play world package: /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK
+[2023.08.29-18.08.04:837][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005733s)
+[2023.08.29-18.08.04:838][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK to /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK (0.005772s)
+[2023.08.29-18.08.04:838][ 66]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.29-18.08.04:838][ 66]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.29-18.08.04:838][ 66]LogAIModule: Creating AISystem for world TestMap_JK
+[2023.08.29-18.08.04:839][ 66]LogWorldPartition: ULevel::OnLevelLoaded(TestMap_JK)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.08.29-18.08.04:839][ 66]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.08.29-18.08.04:839][ 66]LogWorldPartition: UWorldPartition::Initialize(Asset=TestMap_JK, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.08.29-18.08.04:840][ 66]LogContentBundle: [TestMap_JK(Standalone)] Creating new contrainer.
+[2023.08.29-18.08.04:840][ 66]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 590 ms)
+[2023.08.29-18.08.04:840][ 66]LogPlayLevel: PIE: World Init took: (0.002408s)
+[2023.08.29-18.08.04:864][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.08.29-18.08.04:866][ 66]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.08.29-18.08.04:866][ 66]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.29-18.08.04:866][ 66]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.29-18.08.04:866][ 66]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.29-18.08.04:866][ 66]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.29-18.08.04:866][ 66]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.29-18.08.04:866][ 66]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.29-18.08.04:866][ 66]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.29-18.08.04:866][ 66]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.29-18.08.04:866][ 66]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.29-18.08.04:866][ 66]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.29-18.08.04:866][ 66]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.29-18.08.04:868][ 66]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.29-18.08.04:961][ 66]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.08.29-18.08.04:962][ 66]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.29-18.08.04:962][ 66]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.29-18.08.04:962][ 66]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.29-18.08.04:964][ 66]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.08.29-18.08.04:964][ 66]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.08.29-18.08.04:965][ 66]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.08.29-18.08.04:965][ 66]LogInit: FAudioDevice initialized with ID 9.
+[2023.08.29-18.08.04:965][ 66]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.08.29-18.08.04:965][ 66]LogAudio: Display: Audio Device (ID: 9) registered with world 'TestMap_JK'.
+[2023.08.29-18.08.04:965][ 66]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2023.08.29-18.08.04:968][ 66]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.08.29-18.08.04:975][ 66]LogWorld: Bringing World /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK up for play (max tick rate 0) at 2023.08.29-13.08.04
+[2023.08.29-18.08.04:975][ 66]LogWorld: Bringing up level for play took: 0.006530
+[2023.08.29-18.08.04:977][ 66]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.08.29-18.08.04:978][ 66]PIE: Server logged in
+[2023.08.29-18.08.04:979][ 66]PIE: Play in editor total start time 0.148 seconds.
+[2023.08.29-18.08.18:355][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-18.08.18:355][295]LogWorld: BeginTearingDown for /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK
+[2023.08.29-18.08.18:355][295]LogWorld: UWorld::CleanupWorld for TestMap_JK, bSessionEnded=true, bCleanupResources=true
+[2023.08.29-18.08.18:356][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-18.08.18:356][295]LogContentBundle: [TestMap_JK(Standalone)] Deleting container.
+[2023.08.29-18.08.18:362][295]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.29-18.08.18:367][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-18.08.18:388][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-18.08.18:388][295]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2023.08.29-18.08.18:388][295]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.08.29-18.08.18:390][295]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.08.29-18.08.18:398][295]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.08.29-18.08.18:461][296]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.08.29-18.08.18:504][296]LogViewport: Scene viewport resized to 453x335, mode Windowed.
+[2023.08.29-18.08.53:797][185]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.29-18.08.53:890][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.08.29-18.08.53:896][185]LogSavePackage: Moving output files for package: /Game/Developers/kraft/Maps/TestMap_JK
+[2023.08.29-18.08.53:897][185]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/TestMap_JK335DD8194EBD533BB6D565992CAB2F77.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Maps/TestMap_JK.umap'
+[2023.08.29-18.08.53:905][185]LogFileHelpers: Saving map 'TestMap_JK' took 0.037
+[2023.08.29-18.08.53:911][185]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 2.11 sec)
+[2023.08.29-18.08.53:917][185]AssetCheck: New page: Asset Save: TestMap_JK
+[2023.08.29-18.08.53:917][185]LogContentValidation: Display: Validating /Script/Engine.World /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK
+[2023.08.29-18.08.56:792][372]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.29-18.08.56:798][372]LogContentBundle: [TestMap_JK(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.08.29-18.08.56:799][372]LogWorldPartition: Display: GenerateStreaming started...
+[2023.08.29-18.08.56:799][372]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.08.29-18.08.56:799][372]LogWorldPartition: Display: GetPartitionedActors took 6 us (total: 402 us)
+[2023.08.29-18.08.56:800][372]LogWorldPartition: Display: GenerateStreaming took 145 us (total: 1 ms)
+[2023.08.29-18.08.56:800][372]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.29-18.08.56:800][372]PIE: New page: PIE session: TestMap_JK (Aug 29, 2023, 8:08:56 AM)
+[2023.08.29-18.08.56:800][372]LogPlayLevel: Creating play world package: /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK
+[2023.08.29-18.08.56:805][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005192s)
+[2023.08.29-18.08.56:805][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK to /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK (0.005226s)
+[2023.08.29-18.08.56:805][372]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.29-18.08.56:805][372]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.29-18.08.56:806][372]LogAIModule: Creating AISystem for world TestMap_JK
+[2023.08.29-18.08.56:806][372]LogWorldPartition: ULevel::OnLevelLoaded(TestMap_JK)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.08.29-18.08.56:806][372]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.08.29-18.08.56:806][372]LogWorldPartition: UWorldPartition::Initialize(Asset=TestMap_JK, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.08.29-18.08.56:807][372]LogContentBundle: [TestMap_JK(Standalone)] Creating new contrainer.
+[2023.08.29-18.08.56:807][372]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 591 ms)
+[2023.08.29-18.08.56:807][372]LogPlayLevel: PIE: World Init took: (0.002258s)
+[2023.08.29-18.08.56:830][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.08.29-18.08.56:831][372]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.08.29-18.08.56:831][372]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.29-18.08.56:831][372]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.29-18.08.56:831][372]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.29-18.08.56:831][372]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.29-18.08.56:831][372]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.29-18.08.56:831][372]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.29-18.08.56:831][372]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.29-18.08.56:831][372]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.29-18.08.56:831][372]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.29-18.08.56:831][372]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.29-18.08.56:831][372]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.29-18.08.56:834][372]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.29-18.08.56:916][372]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.08.29-18.08.56:917][372]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.29-18.08.56:917][372]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.29-18.08.56:917][372]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.29-18.08.56:918][372]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.08.29-18.08.56:918][372]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.08.29-18.08.56:919][372]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.08.29-18.08.56:919][372]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.08.29-18.08.56:919][372]LogInit: FAudioDevice initialized with ID 10.
+[2023.08.29-18.08.56:919][372]LogAudio: Display: Audio Device (ID: 10) registered with world 'TestMap_JK'.
+[2023.08.29-18.08.56:919][372]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2023.08.29-18.08.56:922][372]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.08.29-18.08.56:928][372]LogWorld: Bringing World /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK up for play (max tick rate 0) at 2023.08.29-13.08.56
+[2023.08.29-18.08.56:928][372]LogWorld: Bringing up level for play took: 0.005632
+[2023.08.29-18.08.56:930][372]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2023.08.29-18.08.56:931][372]PIE: Server logged in
+[2023.08.29-18.08.56:932][372]PIE: Play in editor total start time 0.134 seconds.
+[2023.08.29-18.09.26:706][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-18.09.26:706][189]LogWorld: BeginTearingDown for /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK
+[2023.08.29-18.09.26:706][189]LogWorld: UWorld::CleanupWorld for TestMap_JK, bSessionEnded=true, bCleanupResources=true
+[2023.08.29-18.09.26:707][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-18.09.26:707][189]LogContentBundle: [TestMap_JK(Standalone)] Deleting container.
+[2023.08.29-18.09.26:712][189]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.29-18.09.26:715][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-18.09.26:738][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-18.09.26:739][189]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2023.08.29-18.09.26:739][189]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.08.29-18.09.26:741][189]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.08.29-18.09.26:750][189]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.08.29-18.09.26:812][190]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.08.29-18.09.26:821][190]LogViewport: Scene viewport resized to 453x335, mode Windowed.
+[2023.08.29-18.09.56:453][ 37]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.29-18.09.56:459][ 37]LogContentBundle: [TestMap_JK(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.08.29-18.09.56:460][ 37]LogWorldPartition: Display: GenerateStreaming started...
+[2023.08.29-18.09.56:460][ 37]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.08.29-18.09.56:460][ 37]LogWorldPartition: Display: GetPartitionedActors took 6 us (total: 408 us)
+[2023.08.29-18.09.56:460][ 37]LogWorldPartition: Display: GenerateStreaming took 159 us (total: 2 ms)
+[2023.08.29-18.09.56:461][ 37]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.29-18.09.56:461][ 37]PIE: New page: PIE session: TestMap_JK (Aug 29, 2023, 8:09:56 AM)
+[2023.08.29-18.09.56:461][ 37]LogPlayLevel: Creating play world package: /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK
+[2023.08.29-18.09.56:466][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005993s)
+[2023.08.29-18.09.56:467][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK to /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK (0.006036s)
+[2023.08.29-18.09.56:467][ 37]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.29-18.09.56:467][ 37]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.29-18.09.56:467][ 37]LogAIModule: Creating AISystem for world TestMap_JK
+[2023.08.29-18.09.56:468][ 37]LogWorldPartition: ULevel::OnLevelLoaded(TestMap_JK)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.08.29-18.09.56:468][ 37]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.08.29-18.09.56:468][ 37]LogWorldPartition: UWorldPartition::Initialize(Asset=TestMap_JK, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.08.29-18.09.56:469][ 37]LogContentBundle: [TestMap_JK(Standalone)] Creating new contrainer.
+[2023.08.29-18.09.56:469][ 37]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 592 ms)
+[2023.08.29-18.09.56:470][ 37]LogPlayLevel: PIE: World Init took: (0.003370s)
+[2023.08.29-18.09.56:494][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.08.29-18.09.56:496][ 37]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.08.29-18.09.56:496][ 37]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.29-18.09.56:496][ 37]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.29-18.09.56:496][ 37]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.29-18.09.56:496][ 37]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.29-18.09.56:496][ 37]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.29-18.09.56:496][ 37]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.29-18.09.56:496][ 37]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.29-18.09.56:496][ 37]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.29-18.09.56:496][ 37]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.29-18.09.56:496][ 37]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.29-18.09.56:496][ 37]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.29-18.09.56:498][ 37]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.29-18.09.56:581][ 37]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.08.29-18.09.56:582][ 37]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.29-18.09.56:582][ 37]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.29-18.09.56:582][ 37]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.29-18.09.56:582][ 37]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.08.29-18.09.56:582][ 37]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.08.29-18.09.56:584][ 37]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.08.29-18.09.56:584][ 37]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.08.29-18.09.56:584][ 37]LogInit: FAudioDevice initialized with ID 11.
+[2023.08.29-18.09.56:584][ 37]LogAudio: Display: Audio Device (ID: 11) registered with world 'TestMap_JK'.
+[2023.08.29-18.09.56:584][ 37]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2023.08.29-18.09.56:587][ 37]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.08.29-18.09.56:592][ 37]LogWorld: Bringing World /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK up for play (max tick rate 0) at 2023.08.29-13.09.56
+[2023.08.29-18.09.56:592][ 37]LogWorld: Bringing up level for play took: 0.005633
+[2023.08.29-18.09.56:594][ 37]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2023.08.29-18.09.56:595][ 37]PIE: Server logged in
+[2023.08.29-18.09.56:596][ 37]PIE: Play in editor total start time 0.138 seconds.
+[2023.08.29-18.11.14:064][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-18.11.14:065][696]LogWorld: BeginTearingDown for /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK
+[2023.08.29-18.11.14:065][696]LogWorld: UWorld::CleanupWorld for TestMap_JK, bSessionEnded=true, bCleanupResources=true
+[2023.08.29-18.11.14:065][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-18.11.14:065][696]LogContentBundle: [TestMap_JK(Standalone)] Deleting container.
+[2023.08.29-18.11.14:071][696]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.29-18.11.14:077][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.29-18.11.14:100][696]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.29-18.11.14:100][696]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2023.08.29-18.11.14:100][696]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.08.29-18.11.14:102][696]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.08.29-18.11.14:107][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.29-18.11.14:110][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.08.29-18.11.14:172][697]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.08.29-18.11.14:181][697]LogViewport: Scene viewport resized to 453x335, mode Windowed.
