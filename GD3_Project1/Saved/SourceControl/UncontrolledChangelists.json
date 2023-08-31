@@ -7,7 +7,6 @@
 			"files": [
 				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_Char1_JK.uasset",
-				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_Char2_JK.uasset",
 				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/E/AA/MFBXCSM7ATPE7K595V85RI.uasset",
 				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/3/YU/SYHUTZFWK36FEHYFDCUZO3.uasset",
 				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/7/32/HZTOODOP8W32TAGBZSTZON.uasset",
@@ -56,12 +55,14 @@
 				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/__ExternalObjects__/Developers/kraft/Maps/TestMap_JK/A/3E/7HSU1B7XMJEE0X18V8DIMH.uasset",
 				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Maps/TestMap_JK.umap",
 				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
-				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/4/56/2FH56ES3MQ6OKO3UUF00RO.uasset",
 				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/2/BX/T3WX3OZ55NV5YUS1FRJVM1.uasset",
-				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/9/FE/3P9WTAOU1GPOYJ4NV1H1DK.uasset",
 				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/7/YC/JCCORK6CD4TFDB5K8D0IEL.uasset",
 				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_Char2_JK1.uasset",
-				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_ButtonComponent.uasset"
+				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_ButtonComponent.uasset",
+				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_PressurePlate.uasset",
+				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_Char2_JK.uasset",
+				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/4/56/2FH56ES3MQ6OKO3UUF00RO.uasset",
+				"C:/Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/__ExternalActors__/Developers/kraft/Maps/TestMap_JK/9/FE/3P9WTAOU1GPOYJ4NV1H1DK.uasset"
 			]
 		}
 	]
