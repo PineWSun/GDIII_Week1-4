@@ -1203,3 +1203,4 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.11-18.28.28:278][272]Cmd: MAP CHECKDEP NOCLEARLOG
 [2023.09.11-18.28.28:278][272]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.342ms to complete.
 [2023.09.11-18.28.28:278][272]LogFileHelpers: Loading map 'TestMap_JK' took 0.282
+[2023.09.11-18.30.04:541][690]LogDerivedDataCache: C:/Users/kraft/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.136 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1612 files in 2512 folders with total size 72 MiB.
