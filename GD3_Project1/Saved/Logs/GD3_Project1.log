@@ -1204,3 +1204,282 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.11-18.28.28:278][272]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.342ms to complete.
 [2023.09.11-18.28.28:278][272]LogFileHelpers: Loading map 'TestMap_JK' took 0.282
 [2023.09.11-18.30.04:541][690]LogDerivedDataCache: C:/Users/kraft/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.136 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1612 files in 2512 folders with total size 72 MiB.
+[2023.09.11-18.36.41:057][696]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.11-18.36.41:070][697]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.11-18.36.41:114][698]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.11-18.36.43:181][916]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Developers/kraft/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase
+[2023.09.11-18.36.43:182][916]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.11-18.36.43:183][916]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.11-18.36.44:431][916]LogSlate: Took 0.004460 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.09.11-18.37.20:282][124]LogViewport: Scene viewport resized to 1229x602, mode Windowed.
+[2023.09.11-18.38.11:912][689]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.09.11-18.38.11:945][691]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.11-18.38.19:130][433]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.11-18.39.05:260][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.09.11-18.39.05:261][808]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Developers/kraft/Maps/TestMap_JK' took 0.026
+[2023.09.11-18.39.05:261][808]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Developers/kraft/Blueprints/BP_PressurePlateBase] ([2] browsable assets)...
+[2023.09.11-18.39.05:271][808]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Developers/kraft/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase]
+[2023.09.11-18.39.05:271][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Developers/kraft/Blueprints/BP_PressurePlateBase]
+[2023.09.11-18.39.05:279][808]LogPackageLocalizationCache: Processed 44 localized package path(s) for 1 prioritized culture(s) in 0.006819 seconds
+[2023.09.11-18.39.05:281][808]LogSerialization: UsePackageTrailer: 'true'
+[2023.09.11-18.39.05:282][808]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Developers/kraft/Blueprints/BP_PressurePlateBase_Auto1
+[2023.09.11-18.39.05:282][808]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_PressurePlateBase_Auto1590D12794E8D045BF0CBA39E56988ADD.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/Autosaves/Game/Developers/kraft/Blueprints/BP_PressurePlateBase_Auto1.uasset'
+[2023.09.11-18.39.05:283][808]LogFileHelpers: Auto-saving content packages took 0.022
+[2023.09.11-18.39.50:155][878]LogShaderCompilers: Display: ================================================
+[2023.09.11-18.39.50:155][878]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.11-18.39.50:155][878]LogShaderCompilers: Display: Total job queries 14, among them cache hits 2 (14.29%)
+[2023.09.11-18.39.50:155][878]LogShaderCompilers: Display: Tracking 12 distinct input hashes that result in 11 distinct outputs (91.67%)
+[2023.09.11-18.39.50:155][878]LogShaderCompilers: Display: RAM used: 235.75 KiB of 819.20 MiB budget. Usage: 0.03%
+[2023.09.11-18.39.50:155][878]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.11-18.39.50:155][878]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.09.11-18.39.50:155][878]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.09.11-18.39.50:155][878]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.09.11-18.39.50:155][878]LogShaderCompilers: Display: ================================================
+[2023.09.11-18.43.33:554][343]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.09.11-18.43.33:554][343]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.09.11-18.44.17:888][663]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.09.11-18.49.05:748][614]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.09.11-18.49.05:751][614]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Developers/kraft/Maps/TestMap_JK' took 0.034
+[2023.09.11-18.49.05:751][614]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Developers/kraft/Blueprints/BP_PressurePlateBase] ([2] browsable assets)...
+[2023.09.11-18.49.05:828][614]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Developers/kraft/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase]
+[2023.09.11-18.49.05:828][614]OBJ SavePackage: Finished generating thumbnails for package [/Game/Developers/kraft/Blueprints/BP_PressurePlateBase]
+[2023.09.11-18.49.05:832][614]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Developers/kraft/Blueprints/BP_PressurePlateBase_Auto2
+[2023.09.11-18.49.05:832][614]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_PressurePlateBase_Auto233E89FD0403237131DBF408762432AC0.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/Autosaves/Game/Developers/kraft/Blueprints/BP_PressurePlateBase_Auto2.uasset'
+[2023.09.11-18.49.05:833][614]LogFileHelpers: Auto-saving content packages took 0.083
+[2023.09.11-19.04.41:484][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.09.11-19.04.41:486][ 13]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Developers/kraft/Maps/TestMap_JK' took 0.022
+[2023.09.11-19.04.41:486][ 13]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Developers/kraft/Blueprints/BP_PressurePlateBase] ([2] browsable assets)...
+[2023.09.11-19.04.41:496][ 13]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Developers/kraft/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase]
+[2023.09.11-19.04.41:497][ 13]OBJ SavePackage: Finished generating thumbnails for package [/Game/Developers/kraft/Blueprints/BP_PressurePlateBase]
+[2023.09.11-19.04.41:501][ 13]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Developers/kraft/Blueprints/BP_PressurePlateBase_Auto3
+[2023.09.11-19.04.41:501][ 13]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_PressurePlateBase_Auto3E6CB3FEA474162C3F536A1AA15882006.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/Autosaves/Game/Developers/kraft/Blueprints/BP_PressurePlateBase_Auto3.uasset'
+[2023.09.11-19.04.41:502][ 13]LogFileHelpers: Auto-saving content packages took 0.016
+[2023.09.11-19.05.01:823][355]BlueprintLog: New page: Compile BP_PressurePlateBase
+[2023.09.11-19.05.01:860][355]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.09.11-19.05.02:699][400]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.11-19.05.02:796][400]LogSavePackage: Moving output files for package: /Game/Developers/kraft/Blueprints/BP_PressurePlateBase
+[2023.09.11-19.05.02:796][400]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_PressurePlateBaseC9DAF8544F17ED76F8AA098303AB904D.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_PressurePlateBase.uasset'
+[2023.09.11-19.05.02:805][400]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms
+[2023.09.11-19.05.02:811][400]AssetCheck: New page: Asset Save: BP_PressurePlateBase
+[2023.09.11-19.05.02:811][400]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Developers/kraft/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase
+[2023.09.11-19.06.07:786][ 24]BlueprintLog: New page: Compile BP_PressurePlateBase
+[2023.09.11-19.06.07:823][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.09.11-19.06.08:267][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.11-19.06.08:349][ 73]LogSavePackage: Moving output files for package: /Game/Developers/kraft/Blueprints/BP_PressurePlateBase
+[2023.09.11-19.06.08:349][ 73]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_PressurePlateBase736D9E43401E04C4606A589BA8547E33.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_PressurePlateBase.uasset'
+[2023.09.11-19.06.08:355][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 193 ms)
+[2023.09.11-19.06.08:360][ 73]AssetCheck: New page: Asset Save: BP_PressurePlateBase
+[2023.09.11-19.06.08:360][ 73]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Developers/kraft/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase
+[2023.09.11-19.06.11:197][384]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Developers/kraft/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase_C
+[2023.09.11-19.06.11:197][384]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Developers/kraft/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase_C
+[2023.09.11-19.06.11:198][384]LogActorFactory: Actor Factory spawned Blueprint /Game/Developers/kraft/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase as actor: BP_PressurePlateBase_C /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK:PersistentLevel.BP_PressurePlateBase_C_0
+[2023.09.11-19.06.11:200][384]LogActorFactory: Actor Factory spawned Blueprint /Game/Developers/kraft/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase as actor: BP_PressurePlateBase_C /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK:PersistentLevel.BP_PressurePlateBase_C_0
+[2023.09.11-19.06.11:205][384]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.09.11-19.06.12:517][528]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Developers/kraft/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase_C
+[2023.09.11-19.06.12:517][528]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Developers/kraft/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase_C
+[2023.09.11-19.06.12:522][528]LogActorFactory: Actor Factory spawned Blueprint /Game/Developers/kraft/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase as actor: BP_PressurePlateBase_C /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK:PersistentLevel.BP_PressurePlateBase_C_UAID_088FC32E6AF534A801_1379140719
+[2023.09.11-19.06.12:523][528]LogActorFactory: Actor Factory spawned Blueprint /Game/Developers/kraft/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase as actor: BP_PressurePlateBase_C /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK:PersistentLevel.BP_PressurePlateBase_C_UAID_088FC32E6AF534A801_1379140719
+[2023.09.11-19.06.14:929][792]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.11-19.06.14:935][792]LogContentBundle: [TestMap_JK(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.09.11-19.06.14:937][792]LogWorldPartition: Display: GenerateStreaming started...
+[2023.09.11-19.06.14:937][792]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.09.11-19.06.14:937][792]LogWorldPartition: Display: GetPartitionedActors took 337 us
+[2023.09.11-19.06.14:938][792]LogWorldPartition: Display: GenerateStreaming took 586 us
+[2023.09.11-19.06.14:942][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.11-19.06.14:942][792]PIE: New page: PIE session: TestMap_JK (Sep 11, 2023, 9:06:14 AM)
+[2023.09.11-19.06.14:948][792]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.09.11-19.06.14:948][792]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.09.11-19.06.14:949][792]LogPlayLevel: Creating play world package: /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK
+[2023.09.11-19.06.14:955][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006271s)
+[2023.09.11-19.06.14:955][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Developers/kraft/Maps/TestMap_JK.TestMap_JK to /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK (0.006306s)
+[2023.09.11-19.06.14:955][792]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.11-19.06.14:955][792]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.11-19.06.14:955][792]LogAIModule: Creating AISystem for world TestMap_JK
+[2023.09.11-19.06.14:956][792]LogWorldPartition: ULevel::OnLevelLoaded(TestMap_JK)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.09.11-19.06.14:956][792]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.11-19.06.14:956][792]LogWorldPartition: UWorldPartition::Initialize(Asset=TestMap_JK, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.09.11-19.06.14:957][792]LogContentBundle: [TestMap_JK(Standalone)] Creating new contrainer.
+[2023.09.11-19.06.14:957][792]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 1.04 sec)
+[2023.09.11-19.06.14:958][792]LogPlayLevel: PIE: World Init took: (0.002952s)
+[2023.09.11-19.06.14:977][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.09.11-19.06.14:981][792]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.09.11-19.06.14:981][792]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.11-19.06.14:981][792]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.11-19.06.14:981][792]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.11-19.06.14:981][792]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.11-19.06.14:981][792]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.11-19.06.14:981][792]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.11-19.06.14:981][792]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.11-19.06.14:981][792]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.11-19.06.14:981][792]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.11-19.06.14:981][792]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.11-19.06.14:981][792]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.11-19.06.14:983][792]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.11-19.06.15:073][792]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.09.11-19.06.15:073][792]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.11-19.06.15:073][792]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.11-19.06.15:073][792]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.11-19.06.15:074][792]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.09.11-19.06.15:074][792]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.09.11-19.06.15:075][792]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.09.11-19.06.15:075][792]LogInit: FAudioDevice initialized with ID 2.
+[2023.09.11-19.06.15:076][792]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.09.11-19.06.15:076][792]LogAudio: Display: Audio Device (ID: 2) registered with world 'TestMap_JK'.
+[2023.09.11-19.06.15:076][792]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2023.09.11-19.06.15:081][792]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.09.11-19.06.15:085][792]LogWorld: Bringing World /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK.TestMap_JK up for play (max tick rate 0) at 2023.09.11-14.06.15
+[2023.09.11-19.06.15:088][792]LogBlueprintUserMessages: [BP_Char2_JK1_C_UAID_088FC32E6AF51BA401_1375255099] small possessed
+[2023.09.11-19.06.15:091][792]LogWorld: Bringing up level for play took: 0.010819
+[2023.09.11-19.06.15:095][792]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.09.11-19.06.15:097][792]LogBlueprintUserMessages: [BP_Char1_JK_C_UAID_088FC32E6AF51AA401_1674885921] large possessed
+[2023.09.11-19.06.15:109][792]LogBlueprintUserMessages: [BP_Char1_JK_C_UAID_088FC32E6AF51AA401_1674885921] large possessed
+[2023.09.11-19.06.15:117][792]PIE: Server logged in
+[2023.09.11-19.06.15:117][792]PIE: Play in editor total start time 0.183 seconds.
+[2023.09.11-19.06.17:031][796]LogSlate: Took 0.000345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.09.11-19.06.26:493][715]LogBlueprintUserMessages: [BP_ButtonBase_C_UAID_088FC32E6AF5A9A701_1713712255] AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+[2023.09.11-19.06.27:407][808]LogBlueprintUserMessages: [BP_Char2_JK1_C_UAID_088FC32E6AF51BA401_1375255099] small possessed
+[2023.09.11-19.06.27:551][823]LogBlueprintUserMessages: [BP_Char2_JK1_C_UAID_088FC32E6AF51BA401_1375255099] Hello
+[2023.09.11-19.06.36:547][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.11-19.06.36:547][750]LogWorld: BeginTearingDown for /Game/Developers/kraft/Maps/UEDPIE_0_TestMap_JK
+[2023.09.11-19.06.36:548][750]LogWorld: UWorld::CleanupWorld for TestMap_JK, bSessionEnded=true, bCleanupResources=true
+[2023.09.11-19.06.36:548][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.11-19.06.36:548][750]LogContentBundle: [TestMap_JK(Standalone)] Deleting container.
+[2023.09.11-19.06.36:554][750]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.11-19.06.36:557][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.11-19.06.36:577][750]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.11-19.06.36:577][750]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2023.09.11-19.06.36:579][750]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.09.11-19.06.36:580][750]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.09.11-19.06.36:587][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.11-19.06.36:590][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.09.11-19.06.36:624][751]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.09.11-19.07.44:404][197]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2023.09.11-19.08.14:217][664]BlueprintLog: New page: Compile BP_PressurePlateBase
+[2023.09.11-19.08.14:262][664]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.09.11-19.08.14:681][707]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.11-19.08.14:756][707]LogSavePackage: Moving output files for package: /Game/Developers/kraft/Blueprints/BP_PressurePlateBase
+[2023.09.11-19.08.14:757][707]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_PressurePlateBase8560D08741705CAB40C541A5183A0679.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_PressurePlateBase.uasset'
+[2023.09.11-19.08.14:763][707]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 275 ms)
+[2023.09.11-19.08.14:767][707]AssetCheck: New page: Asset Save: BP_PressurePlateBase
+[2023.09.11-19.08.14:767][707]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Developers/kraft/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase
+[2023.09.11-19.08.51:848][496]BlueprintLog: New page: Compile BP_PressurePlateBase
+[2023.09.11-19.08.51:891][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.09.11-19.08.52:261][535]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.11-19.08.52:354][535]LogSavePackage: Moving output files for package: /Game/Developers/kraft/Blueprints/BP_PressurePlateBase
+[2023.09.11-19.08.52:355][535]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_PressurePlateBaseB52AC7F24C1C5B9DB119C8B0ABA6C4E7.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_PressurePlateBase.uasset'
+[2023.09.11-19.08.52:360][535]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 374 ms)
+[2023.09.11-19.08.52:365][535]AssetCheck: New page: Asset Save: BP_PressurePlateBase
+[2023.09.11-19.08.52:366][535]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Developers/kraft/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase
+[2023.09.11-19.09.24:146][877]BlueprintLog: New page: Compile BP_PressurePlateBase
+[2023.09.11-19.09.24:189][877]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.09.11-19.09.24:583][920]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.11-19.09.24:668][920]LogSavePackage: Moving output files for package: /Game/Developers/kraft/Blueprints/BP_PressurePlateBase
+[2023.09.11-19.09.24:669][920]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_PressurePlateBaseDE99CA17456D154C70B64C98C959CA82.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Developers/kraft/Blueprints/BP_PressurePlateBase.uasset'
+[2023.09.11-19.09.24:674][920]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 465 ms)
+[2023.09.11-19.09.24:679][920]AssetCheck: New page: Asset Save: BP_PressurePlateBase
+[2023.09.11-19.09.24:679][920]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Developers/kraft/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase
+[2023.09.11-19.09.30:333][433]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.11-19.09.30:346][433]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.11-19.09.30:358][434]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.11-19.09.37:822][182]LogContentBrowser: Attempting asset rename: NewFolder -> Kraft_Dev_Folder
+[2023.09.11-19.09.37:822][182]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.11-19.09.48:303][179]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.11-19.09.53:268][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.09.11-19.09.53:318][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.09.11-19.09.53:394][661]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.09.11-19.09.53:448][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.09.11-19.09.53:477][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.09.11-19.09.53:503][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.09.11-19.09.56:027][854]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.11-19.09.56:055][854]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.11-19.09.56:065][855]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.11-19.10.01:387][386]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2023.09.11-19.10.01:387][386]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.11-19.10.06:727][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_ButtonBase.SKEL_BP_ButtonBase_C' ref from Metadata '/Game/Kraft_Dev_Folder/BP_ButtonBase.PackageMetaData'
+[2023.09.11-19.10.06:728][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_ButtonBase.BP_ButtonBase_C' ref from Metadata '/Game/Kraft_Dev_Folder/BP_ButtonBase.PackageMetaData'
+[2023.09.11-19.10.06:728][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_ButtonBase.SKEL_BP_ButtonBase_C:ReceiveBeginPlay' ref from Metadata '/Game/Kraft_Dev_Folder/BP_ButtonBase.PackageMetaData'
+[2023.09.11-19.10.06:728][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_ButtonBase.SKEL_BP_ButtonBase_C:BndEvt__BP_ButtonBase_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Kraft_Dev_Folder/BP_ButtonBase.PackageMetaData'
+[2023.09.11-19.10.06:728][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_ButtonBase.SKEL_BP_ButtonBase_C:BndEvt__BP_ButtonBase_Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/Kraft_Dev_Folder/BP_ButtonBase.PackageMetaData'
+[2023.09.11-19.10.06:728][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_ButtonBase.SKEL_BP_ButtonBase_C:UserConstructionScript' ref from Metadata '/Game/Kraft_Dev_Folder/BP_ButtonBase.PackageMetaData'
+[2023.09.11-19.10.06:728][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_ButtonBase.BP_ButtonBase_C:ReceiveBeginPlay' ref from Metadata '/Game/Kraft_Dev_Folder/BP_ButtonBase.PackageMetaData'
+[2023.09.11-19.10.06:743][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char1_JK.SKEL_BP_Char1_JK_C' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char1_JK.PackageMetaData'
+[2023.09.11-19.10.06:743][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char1_JK.SKEL_BP_Char1_JK_C:UserConstructionScript' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char1_JK.PackageMetaData'
+[2023.09.11-19.10.06:743][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char1_JK.SKEL_BP_Char1_JK_C:BndEvt__BP_Char1_JK_PawnSensing_K2Node_ComponentBoundEvent_1_SeePawnDelegate__DelegateSignature' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char1_JK.PackageMetaData'
+[2023.09.11-19.10.06:743][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char1_JK.SKEL_BP_Char1_JK_C:ReceivePossessed' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char1_JK.PackageMetaData'
+[2023.09.11-19.10.06:743][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char1_JK.SKEL_BP_Char1_JK_C:ReceiveTick' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char1_JK.PackageMetaData'
+[2023.09.11-19.10.06:743][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char1_JK.SKEL_BP_Char1_JK_C:ReceiveBeginPlay' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char1_JK.PackageMetaData'
+[2023.09.11-19.10.06:743][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char1_JK.BP_Char1_JK_C' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char1_JK.PackageMetaData'
+[2023.09.11-19.10.06:743][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char1_JK.BP_Char1_JK_C:ReceivePossessed' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char1_JK.PackageMetaData'
+[2023.09.11-19.10.06:743][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char1_JK.BP_Char1_JK_C:ReceiveTick' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char1_JK.PackageMetaData'
+[2023.09.11-19.10.06:743][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char1_JK.BP_Char1_JK_C:ReceiveBeginPlay' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char1_JK.PackageMetaData'
+[2023.09.11-19.10.06:743][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char1_JK.BP_Char1_JK_C:OnSuccess_0E874F254A6C3F485DC42F9DC5E008DD' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char1_JK.PackageMetaData'
+[2023.09.11-19.10.06:743][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char1_JK.BP_Char1_JK_C:OnFail_0E874F254A6C3F485DC42F9DC5E008DD' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char1_JK.PackageMetaData'
+[2023.09.11-19.10.06:745][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char2_JK1.SKEL_BP_Char2_JK1_C:ReceiveTick' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char2_JK1.PackageMetaData'
+[2023.09.11-19.10.06:745][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char2_JK1.SKEL_BP_Char2_JK1_C:ReceiveBeginPlay' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char2_JK1.PackageMetaData'
+[2023.09.11-19.10.06:745][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char2_JK1.SKEL_BP_Char2_JK1_C' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char2_JK1.PackageMetaData'
+[2023.09.11-19.10.06:745][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char2_JK1.BP_Char2_JK1_C' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char2_JK1.PackageMetaData'
+[2023.09.11-19.10.06:745][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char2_JK1.BP_Char2_JK1_C:ReceivePossessed' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char2_JK1.PackageMetaData'
+[2023.09.11-19.10.06:745][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char2_JK1.BP_Char2_JK1_C:ReceiveTick' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char2_JK1.PackageMetaData'
+[2023.09.11-19.10.06:745][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char2_JK1.BP_Char2_JK1_C:ReceiveBeginPlay' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char2_JK1.PackageMetaData'
+[2023.09.11-19.10.06:745][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char2_JK1.BP_Char2_JK1_C:OnSuccess_8FA9AE124BB3DFB26623E08E06F96B06' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char2_JK1.PackageMetaData'
+[2023.09.11-19.10.06:745][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char2_JK1.BP_Char2_JK1_C:OnFail_8FA9AE124BB3DFB26623E08E06F96B06' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char2_JK1.PackageMetaData'
+[2023.09.11-19.10.06:745][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char2_JK1.BP_Char2_JK1_C:OnSuccess_89341DBE4E16C3B0BB32EDAD3674E825' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char2_JK1.PackageMetaData'
+[2023.09.11-19.10.06:745][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char2_JK1.BP_Char2_JK1_C:OnFail_89341DBE4E16C3B0BB32EDAD3674E825' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char2_JK1.PackageMetaData'
+[2023.09.11-19.10.06:745][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char2_JK1.SKEL_BP_Char2_JK1_C:ReceivePossessed' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char2_JK1.PackageMetaData'
+[2023.09.11-19.10.06:745][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char2_JK1.SKEL_BP_Char2_JK1_C:FollowActivePlayer' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char2_JK1.PackageMetaData'
+[2023.09.11-19.10.06:745][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_Char2_JK1.SKEL_BP_Char2_JK1_C:UserConstructionScript' ref from Metadata '/Game/Kraft_Dev_Folder/BP_Char2_JK1.PackageMetaData'
+[2023.09.11-19.10.06:746][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_PressurePlateBase.SKEL_BP_PressurePlateBase_C' ref from Metadata '/Game/Kraft_Dev_Folder/BP_PressurePlateBase.PackageMetaData'
+[2023.09.11-19.10.06:746][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase_C' ref from Metadata '/Game/Kraft_Dev_Folder/BP_PressurePlateBase.PackageMetaData'
+[2023.09.11-19.10.06:746][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_PressurePlateBase.SKEL_BP_PressurePlateBase_C:BndEvt__BP_PressurePlateBase_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Kraft_Dev_Folder/BP_PressurePlateBase.PackageMetaData'
+[2023.09.11-19.10.06:746][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_PressurePlateBase.SKEL_BP_PressurePlateBase_C:BndEvt__BP_PressurePlateBase_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/Kraft_Dev_Folder/BP_PressurePlateBase.PackageMetaData'
+[2023.09.11-19.10.06:746][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/BP_PressurePlateBase.SKEL_BP_PressurePlateBase_C:UserConstructionScript' ref from Metadata '/Game/Kraft_Dev_Folder/BP_PressurePlateBase.PackageMetaData'
+[2023.09.11-19.10.06:746][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/InteractInterface.SKEL_InteractInterface_C' ref from Metadata '/Game/Kraft_Dev_Folder/InteractInterface.PackageMetaData'
+[2023.09.11-19.10.06:746][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/InteractInterface.InteractInterface_C' ref from Metadata '/Game/Kraft_Dev_Folder/InteractInterface.PackageMetaData'
+[2023.09.11-19.10.06:747][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/p_interact.SKEL_p_interact_C' ref from Metadata '/Game/Kraft_Dev_Folder/p_interact.PackageMetaData'
+[2023.09.11-19.10.06:747][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/p_interact.p_interact_C' ref from Metadata '/Game/Kraft_Dev_Folder/p_interact.PackageMetaData'
+[2023.09.11-19.10.06:747][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/p_interact.SKEL_p_interact_C:PreConstruct' ref from Metadata '/Game/Kraft_Dev_Folder/p_interact.PackageMetaData'
+[2023.09.11-19.10.06:747][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/p_interact.SKEL_p_interact_C:Construct' ref from Metadata '/Game/Kraft_Dev_Folder/p_interact.PackageMetaData'
+[2023.09.11-19.10.06:747][857]LogMetaData: Removing '/Game/Kraft_Dev_Folder/Blueprints/p_interact.SKEL_p_interact_C:Tick' ref from Metadata '/Game/Kraft_Dev_Folder/p_interact.PackageMetaData'
+[2023.09.11-19.10.06:747][857]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.11-19.10.06:843][857]LogSavePackage: Moving output files for package: /Game/Kraft_Dev_Folder/Blueprints/BP_ButtonBase
+[2023.09.11-19.10.06:843][857]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_ButtonBaseDC4B1934482D289177C6D59DF7E53459.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Kraft_Dev_Folder/Blueprints/BP_ButtonBase.uasset'
+[2023.09.11-19.10.06:846][857]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.11-19.10.06:893][857]LogSavePackage: Moving output files for package: /Game/Kraft_Dev_Folder/Blueprints/BP_Char1_JK
+[2023.09.11-19.10.06:893][857]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_Char1_JK43B0A17E485EE98F24942B865F1D5C0F.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Kraft_Dev_Folder/Blueprints/BP_Char1_JK.uasset'
+[2023.09.11-19.10.06:896][857]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.11-19.10.06:942][857]LogSavePackage: Moving output files for package: /Game/Kraft_Dev_Folder/Blueprints/BP_Char2_JK1
+[2023.09.11-19.10.06:942][857]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_Char2_JK15360F0E44F5E4411F5E1219855C8E564.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Kraft_Dev_Folder/Blueprints/BP_Char2_JK1.uasset'
+[2023.09.11-19.10.06:958][857]LogSavePackage: Moving output files for package: /Game/Kraft_Dev_Folder/Blueprints/BP_PressurePlateBase
+[2023.09.11-19.10.06:958][857]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/BP_PressurePlateBase939CD0C741C637B1A82C8C84B686B5E1.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Kraft_Dev_Folder/Blueprints/BP_PressurePlateBase.uasset'
+[2023.09.11-19.10.06:962][857]LogSavePackage: Moving output files for package: /Game/Kraft_Dev_Folder/Blueprints/InteractInterface
+[2023.09.11-19.10.06:962][857]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/InteractInterface05B75DB548D23C22069D41BD05600112.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Kraft_Dev_Folder/Blueprints/InteractInterface.uasset'
+[2023.09.11-19.10.06:970][857]LogSavePackage: Moving output files for package: /Game/Kraft_Dev_Folder/Blueprints/p_interact
+[2023.09.11-19.10.06:970][857]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Saved/p_interact4AAA3D3644ADA6D62A8DAD99509F3482.tmp' to '../../../../../../Users/kraft/GitHub/GDIII_Week1-4/GD3_Project1/Content/Kraft_Dev_Folder/Blueprints/p_interact.uasset'
+[2023.09.11-19.10.06:978][857]LogFileHelpers: InternalPromptForCheckoutAndSave took 230 ms (total: 695 ms)
+[2023.09.11-19.10.07:064][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.09.11-19.10.07:086][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.09.11-19.10.07:107][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.09.11-19.10.07:133][857]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.11-19.10.07:133][857]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Kraft_Dev_Folder/Blueprints/BP_PressurePlateBase.BP_PressurePlateBase
+[2023.09.11-19.10.07:133][857]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Kraft_Dev_Folder/Blueprints/BP_Char2_JK1.BP_Char2_JK1
+[2023.09.11-19.10.07:133][857]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Kraft_Dev_Folder/Blueprints/InteractInterface.InteractInterface
+[2023.09.11-19.10.07:133][857]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Kraft_Dev_Folder/Blueprints/p_interact.p_interact
+[2023.09.11-19.10.07:134][857]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Kraft_Dev_Folder/Blueprints/BP_ButtonBase.BP_ButtonBase
+[2023.09.11-19.10.07:134][857]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Kraft_Dev_Folder/Blueprints/BP_Char1_JK.BP_Char1_JK
+[2023.09.11-19.10.28:859][914]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.09.11-19.10.32:362][914]LogSlate: Window 'Delete Assets' being destroyed
+[2023.09.11-19.10.32:374][915]LogAutomationController: Ignoring very large delta of 3.55 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.09.11-19.10.43:292][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.09.11-19.10.45:091][911]LogSlate: Window 'Delete Assets' being destroyed
+[2023.09.11-19.10.56:883][986]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.11-19.10.56:915][986]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.11-19.10.56:924][987]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.11-19.10.58:126][109]LogContentBrowser: Attempting asset rename: NewFolder -> Maps
+[2023.09.11-19.10.58:126][109]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.11-19.11.07:417][598]LogSlate: Window 'Message' being destroyed
+[2023.09.11-19.11.07:423][598]Message dialog closed, result: Cancel, title: Message, text: Source code, config INI, and text files may need Find/Replace for:
+
+
+TestMap_JK
+
+Otherwise assets can be missing from cooked builds. Continue with rename?
