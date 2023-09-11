@@ -72,3 +72,8 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+GD3_Project1/Saved/AutoScreenshot.png
+GD3_Project1/Saved/Autosaves/PackageRestoreData.json
+GD3_Project1/Saved/Logs/GD3_Project1.log
+GD3_Project1/Saved/SourceControl/UncontrolledChangelists.json
+GD3_Project1/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
